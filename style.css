@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,500;1,500&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Poppins", sans-serif;
+  }
+
+  .main-container {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    width: 384px;
+    height: 522px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 100px auto ;
+    box-shadow: 6px 6px 1px 1px black;
+  }
+
+  .main-img img{
+    width: 336px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .main-img {
+    margin: 24px;
+    
+  }
+
+  .date {
+    margin-left: 24px;
+  }
+
+  .btn {
+    background-color:hsl(47, 88%, 63%) ;
+    border-radius: 4px;
+    border: 0 solid hsl(47, 88%, 63%) ;
+    padding: 4px 12px;
+    color: hsl(0, 0%, 7%);
+    font-weight:bolder;
+    transform: scale(1.1);
+  }
+  .btn:hover {
+    background-color: hsl(47, 75%, 57%);
+  }
+  .date p {
+    margin: 12px 0;
+    height: 21px;
+    font-size: small;
+    color: hsl(0, 0%, 7%);
+  }
+  .header {
+    margin:0 0 12px 24px;
+    height: 36px;
+
+  }
+  .header h2 {
+    color: hsl(0, 0%, 7%);
+  }
+  .header h2:hover {
+    cursor: pointer;
+    color: hsl(47, 75%, 57%);
+  }
+  .about p {
+    font-size: 16px;
+    width: 336px;
+    height: 72px;
+    color: hsl(0, 0%, 50%);
+  }
+  .about {
+    margin-left: 24px;
+
+  }
+  .user {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: auto;
+            height: 32px;
+            margin: 24px 0 0 24px;
+    
+    
+    
+    
+  }
+.user img {
+  width: 32px;
+  height: 32px;
+
+}
+
+.user a {
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  }
+
+  .user a:hover {
+    transform: scale(1.01);
+  }
