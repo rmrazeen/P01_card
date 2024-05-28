@@ -1,1 +1,1 @@
-# frontendmentor_project
+# frontendmentor_P01_card
